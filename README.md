@@ -62,12 +62,6 @@ python camellia.py -u https://example.com
 python -m pip install requests beautifulsoup4 tqdm colorama urllib3
 ```
 
-CVE 组件扫描需要额外安装：
-
-```powershell
-python -m pip install cve-bin-tool
-```
-
 ## 快速开始
 
 ```powershell
@@ -112,7 +106,8 @@ python camellia.py --cve-scan ./application --cve-offline -oj cve.json
 python camellia.py --cve-scan https://example.com/app.jar --yes
 ```
 
-如果未安装 `cve-bin-tool`，Camellia 会给出安装提示和官方项目地址。
+CVE 扫描支持通过 `--cve-bin-tool-path` 指定本地组件扫描程序路径，也可以从
+官方 GitHub Releases 获取可执行文件。
 
 ## sqlmap 联动
 

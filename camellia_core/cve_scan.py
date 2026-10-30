@@ -196,13 +196,10 @@ def _resolve_tool(tool_path):
         return resolved
 
     raise CVEScanError(
-        "未找到 cve-bin-tool。\n"
+        "未找到本地组件扫描程序。\n"
         f"官方仓库：{CVE_BIN_TOOL_GITHUB_URL}\n"
         f"GitHub下载：{CVE_BIN_TOOL_RELEASES_URL}\n"
-        "推荐安装：python -m pip install cve-bin-tool\n"
-        "GitHub安装：python -m pip install "
-        "\"git+https://github.com/ossf/cve-bin-tool.git\"\n"
-        "也可下载后通过 --cve-bin-tool-path 指定可执行文件。"
+        "下载后通过 --cve-bin-tool-path 指定可执行文件。"
     )
 
 
