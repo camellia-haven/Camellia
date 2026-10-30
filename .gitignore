@@ -1,0 +1,46 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local logs, captures, and request data
+*.log
+*.out
+*.err
+*.pcap
+*.pcapng
+*.har
+
+# Scanner output and saved targets
+reports/
+screenshots/
+responses/
+urls.txt
+subdomains.txt
+vulnerabilities.*
+*.sqlite
+*.sqlite3
+*.db
+
+# Node.js and local dependencies
+node_modules/
+npm-debug.log*
+
+# IDE and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

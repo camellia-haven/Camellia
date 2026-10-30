@@ -1,0 +1,9 @@
+{
+  "name": "bookstore-vulnerable-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-only bookstore security testing lab",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
