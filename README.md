@@ -14,6 +14,15 @@ python camellia.py -u https://example.com
 只提供目标 URL、不指定扫描模块时，Camellia 会自动启用 `--vuln-scan`，
 直接进入完整只读 Web 检查。
 
+## 克隆项目
+
+```powershell
+git clone https://github.com/camellia-haven/Camellia.git
+cd Camellia
+```
+
+GitHub 仓库：https://github.com/camellia-haven/Camellia
+
 ## 界面预览
 
 ### 本地漏洞实验站
